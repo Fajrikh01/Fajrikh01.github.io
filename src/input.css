@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 .navbar-fixed {
     @apply fixed z-[9999] bg-white bg-opacity-60;
@@ -22,3 +20,62 @@
 .hamburger-active > span:nth-child(3) {
     @apply -rotate-45;
 }
+
+#track > div {
+  flex: 0 0 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+#slider-wrapper {
+   overflow: hidden;
+}
+
+.card {
+    cursor: pointer;
+}
+
+
+/* #popup {
+  position: fixed;        
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0,0,0,0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;          
+}
+
+.popup-content {
+  background: #fff;
+  padding: 24px;
+  width: 360px;
+  max-height: 80vh;
+  overflow-y: auto;
+
+  border-radius: 10px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+  font-size: 20px;
+} */
